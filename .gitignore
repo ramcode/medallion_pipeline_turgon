@@ -6,6 +6,11 @@ logs/
 *.py[codz]
 *$py.class
 
+data/bronze/raw_tickets_*.csv
+data/bronze/metadata_tags.json
+data/silver/*.csv
+data/gold/*.csv
+
 # C extensions
 *.so
 

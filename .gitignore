@@ -6,6 +6,7 @@ logs/
 *.py[codz]
 *$py.class
 
+data/agent_outputs/
 data/bronze/raw_tickets_*.csv
 data/bronze/metadata_tags.json
 data/silver/*.csv

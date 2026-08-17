@@ -4,7 +4,6 @@ __pycache__/
 *.py[cod]
 logs/
 *.py[codz]
-*.py[cod]
 *$py.class
 
 # C extensions
@@ -220,3 +219,4 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+.idea/

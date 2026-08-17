@@ -10,6 +10,7 @@ data/bronze/raw_tickets_*.csv
 data/bronze/metadata_tags.json
 data/silver/*.csv
 data/gold/*.csv
+data/*.json
 
 # C extensions
 *.so

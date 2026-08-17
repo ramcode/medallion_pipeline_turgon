@@ -1,0 +1,23 @@
+{
+  "columns": [
+    "ticket_id",
+    "created_at",
+    "resolved_at",
+    "category",
+    "priority",
+    "status",
+    "building",
+    "description",
+    "submitted_by",
+    "assigned_to",
+    "resolution_notes",
+    "cost",
+    "sla_hours",
+    "_source_file",
+    "_ingested_at",
+    "_pipeline_run_id",
+    "_pipeline_actor",
+    "_row_hash",
+    "_raw_row_json"
+  ]
+}

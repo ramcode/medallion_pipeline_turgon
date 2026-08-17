@@ -1,0 +1,102 @@
+{
+  "dataset": {
+    "domain": "operational_support",
+    "classification": "restricted",
+    "sensitivity": "moderate",
+    "reason": "Person-name columns and free-text fields may contain support-ticket PII."
+  },
+  "columns": {
+    "ticket_id": [
+      "operational_support",
+      "operational_identifier",
+      "internal"
+    ],
+    "created_at": [
+      "operational_support",
+      "internal"
+    ],
+    "resolved_at": [
+      "operational_support",
+      "internal"
+    ],
+    "category": [
+      "operational_support",
+      "internal"
+    ],
+    "priority": [
+      "operational_support",
+      "internal"
+    ],
+    "status": [
+      "operational_support",
+      "internal"
+    ],
+    "building": [
+      "operational_support",
+      "internal"
+    ],
+    "description": [
+      "operational_support",
+      "free_text",
+      "potential_pii",
+      "review_before_external_sharing"
+    ],
+    "submitted_by": [
+      "operational_support",
+      "pii_hint",
+      "person_name",
+      "restricted"
+    ],
+    "assigned_to": [
+      "operational_support",
+      "pii_hint",
+      "person_name",
+      "restricted"
+    ],
+    "resolution_notes": [
+      "operational_support",
+      "free_text",
+      "potential_pii",
+      "review_before_external_sharing"
+    ],
+    "cost": [
+      "operational_support",
+      "financial",
+      "internal"
+    ],
+    "sla_hours": [
+      "operational_support",
+      "internal"
+    ],
+    "_source_file": [
+      "operational_support",
+      "technical_metadata",
+      "lineage"
+    ],
+    "_ingested_at": [
+      "operational_support",
+      "technical_metadata",
+      "lineage"
+    ],
+    "_pipeline_run_id": [
+      "operational_support",
+      "technical_metadata",
+      "lineage"
+    ],
+    "_pipeline_actor": [
+      "operational_support",
+      "technical_metadata",
+      "lineage"
+    ],
+    "_row_hash": [
+      "operational_support",
+      "technical_metadata",
+      "lineage"
+    ],
+    "_raw_row_json": [
+      "operational_support",
+      "technical_metadata",
+      "lineage"
+    ]
+  }
+}

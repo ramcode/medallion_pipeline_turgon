@@ -1,0 +1,11 @@
+category,resolved_ticket_count,tickets_with_sla_measure,sla_breached_count,sla_breach_rate,avg_resolution_hours
+Electrical,296,209,207,0.9904,5521.28
+Elevator,318,220,218,0.9909,4850.55
+Fire Safety,354,232,228,0.9828,5573.78
+General Maintenance,160,107,105,0.9813,4478.60
+HVAC,180,114,111,0.9737,5055.09
+Housekeeping,311,224,223,0.9955,4882.95
+Other,699,459,451,0.9826,5009.82
+Pest Control,322,232,228,0.9828,5011.66
+Plumbing,309,228,227,0.9956,4903.28
+Security & Access,343,239,235,0.9833,5025.92

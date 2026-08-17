@@ -1,0 +1,8 @@
+{
+  "policy": {
+    "schema_changes": "approval required before migration execution",
+    "destructive_transforms": "approval required before deleting source records",
+    "major_recategorizations": "approval required before changing reviewed mappings"
+  },
+  "requests": []
+}

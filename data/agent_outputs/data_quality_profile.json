@@ -1,0 +1,732 @@
+{
+  "row_count": 10280,
+  "fields": {
+    "ticket_id": {
+      "null_count": 22,
+      "null_rate": 0.0021,
+      "cardinality": 10258,
+      "top_values": [
+        [
+          "TKT-3960",
+          1
+        ],
+        [
+          "TKT-3108",
+          1
+        ],
+        [
+          "TKT-5149",
+          1
+        ],
+        [
+          "TKT-3752",
+          1
+        ],
+        [
+          "TKT-11268",
+          1
+        ],
+        [
+          "TKT-2995",
+          1
+        ],
+        [
+          "TKT-1579",
+          1
+        ],
+        [
+          "TKT-10991",
+          1
+        ],
+        [
+          "TKT-5543",
+          1
+        ],
+        [
+          "TKT-4180",
+          1
+        ]
+      ]
+    },
+    "created_at": {
+      "null_count": 7,
+      "null_rate": 0.0007,
+      "cardinality": 9160,
+      "top_values": [
+        [
+          "00/00/0000",
+          8
+        ],
+        [
+          "2025-02-23",
+          8
+        ],
+        [
+          "2025-03-26",
+          7
+        ],
+        [
+          "2024-04-15",
+          6
+        ],
+        [
+          "2024-12-17",
+          6
+        ],
+        [
+          "asap",
+          6
+        ],
+        [
+          "2025-03-29",
+          6
+        ],
+        [
+          "2024-04-03",
+          6
+        ],
+        [
+          "2024-09-28",
+          6
+        ],
+        [
+          "2025-03-01",
+          6
+        ]
+      ]
+    },
+    "resolved_at": {
+      "null_count": 4955,
+      "null_rate": 0.482,
+      "cardinality": 4751,
+      "top_values": [
+        [
+          "2025-03-14",
+          7
+        ],
+        [
+          "2025-04-15",
+          7
+        ],
+        [
+          "2025-03-12",
+          6
+        ],
+        [
+          "2025-04-08",
+          5
+        ],
+        [
+          "2024-06-27",
+          5
+        ],
+        [
+          "2025-05-19",
+          5
+        ],
+        [
+          "2025-04-27",
+          5
+        ],
+        [
+          "2025-03-29",
+          5
+        ],
+        [
+          "2025-05-20",
+          5
+        ],
+        [
+          "2024-11-06",
+          5
+        ]
+      ]
+    },
+    "category": {
+      "null_count": 18,
+      "null_rate": 0.0018,
+      "cardinality": 111,
+      "top_values": [
+        [
+          "Exterminator",
+          276
+        ],
+        [
+          "Pest",
+          275
+        ],
+        [
+          "pest control",
+          256
+        ],
+        [
+          "Pest Control",
+          249
+        ],
+        [
+          "Fire Safety",
+          216
+        ],
+        [
+          "Sprinkler",
+          213
+        ],
+        [
+          "fire safety",
+          210
+        ],
+        [
+          "Plumbing Issue",
+          199
+        ],
+        [
+          "SECURITY",
+          199
+        ],
+        [
+          "Fire/Safety",
+          191
+        ]
+      ]
+    },
+    "priority": {
+      "null_count": 1090,
+      "null_rate": 0.106,
+      "cardinality": 19,
+      "top_values": [
+        [
+          "hi",
+          591
+        ],
+        [
+          "high",
+          575
+        ],
+        [
+          "critical",
+          564
+        ],
+        [
+          "CRITICAL",
+          558
+        ],
+        [
+          "medium",
+          556
+        ],
+        [
+          "med",
+          553
+        ],
+        [
+          "Medium",
+          550
+        ],
+        [
+          "Critical",
+          541
+        ],
+        [
+          "Low",
+          540
+        ],
+        [
+          "LOW",
+          539
+        ]
+      ]
+    },
+    "status": {
+      "null_count": 30,
+      "null_rate": 0.0029,
+      "cardinality": 6,
+      "top_values": [
+        [
+          "In Progress",
+          1788
+        ],
+        [
+          "Pending Vendor",
+          1740
+        ],
+        [
+          "Escalated",
+          1716
+        ],
+        [
+          "Open",
+          1714
+        ],
+        [
+          "Closed",
+          1678
+        ],
+        [
+          "Resolved",
+          1614
+        ]
+      ]
+    },
+    "building": {
+      "null_count": 25,
+      "null_rate": 0.0024,
+      "cardinality": 18,
+      "top_values": [
+        [
+          "Remote Site Beta",
+          669
+        ],
+        [
+          "HQ Floor 1",
+          640
+        ],
+        [
+          "Remote Site Alpha",
+          631
+        ],
+        [
+          "HQ Floor 2",
+          624
+        ],
+        [
+          "Data Center 1",
+          624
+        ],
+        [
+          "Building 7",
+          618
+        ],
+        [
+          "Building 3",
+          611
+        ],
+        [
+          "Main Office",
+          601
+        ],
+        [
+          "Tower A",
+          596
+        ],
+        [
+          "Warehouse North",
+          595
+        ]
+      ]
+    },
+    "description": {
+      "null_count": 121,
+      "null_rate": 0.0118,
+      "cardinality": 4614,
+      "top_values": [
+        [
+          "pipe burst",
+          154
+        ],
+        [
+          "wifi password not working",
+          136
+        ],
+        [
+          "cold",
+          119
+        ],
+        [
+          "bugs in office HQ Floor 2",
+          23
+        ],
+        [
+          "Restrooms on 7 floor haven't been serviced today.",
+          23
+        ],
+        [
+          "Wasp nest forming on Remote Site Beta exterior, near entrance.",
+          21
+        ],
+        [
+          "bugs in office Warehouse North",
+          20
+        ],
+        [
+          "Carpet stain in executive suite, HQ Floor 1. Need professional cleaning.",
+          20
+        ],
+        [
+          "Restrooms on 1 floor haven't been serviced today.",
+          20
+        ],
+        [
+          "smoke detector beeping Remote Site Beta",
+          19
+        ]
+      ]
+    },
+    "submitted_by": {
+      "null_count": 7,
+      "null_rate": 0.0007,
+      "cardinality": 36,
+      "top_values": [
+        [
+          "Chris Taylor",
+          377
+        ],
+        [
+          "Emily Brown",
+          360
+        ],
+        [
+          "M. Johnson",
+          337
+        ],
+        [
+          "jane doe",
+          328
+        ],
+        [
+          "robert martinez",
+          326
+        ],
+        [
+          "Jordan Rivera",
+          326
+        ],
+        [
+          "S. Williams",
+          323
+        ],
+        [
+          "J. Smith",
+          321
+        ],
+        [
+          "Sam Jackson",
+          321
+        ],
+        [
+          "Sarah Williams",
+          321
+        ]
+      ]
+    },
+    "assigned_to": {
+      "null_count": 3122,
+      "null_rate": 0.3037,
+      "cardinality": 7,
+      "top_values": [
+        [
+          "maintenance team",
+          1076
+        ],
+        [
+          "vendor tech",
+          1046
+        ],
+        [
+          "ABC Mechanical",
+          1037
+        ],
+        [
+          "overnight crew",
+          1006
+        ],
+        [
+          "PestPro Services",
+          1001
+        ],
+        [
+          "Joe (in-house)",
+          997
+        ],
+        [
+          "CityWide Electric",
+          995
+        ]
+      ]
+    },
+    "resolution_notes": {
+      "null_count": 1575,
+      "null_rate": 0.1532,
+      "cardinality": 901,
+      "top_values": [
+        [
+          "Temporary fix applied. Permanent repair scheduled.",
+          830
+        ],
+        [
+          "fixed",
+          821
+        ],
+        [
+          "Issue could not be reproduced. Monitoring.",
+          783
+        ],
+        [
+          "done",
+          755
+        ],
+        [
+          "Vendor called. Scheduled for Friday.",
+          181
+        ],
+        [
+          "Vendor called. Scheduled for Monday.",
+          170
+        ],
+        [
+          "Vendor called. Scheduled for Wednesday.",
+          157
+        ],
+        [
+          "Vendor called. Scheduled for Tuesday.",
+          148
+        ],
+        [
+          "Vendor called. Scheduled for Thursday.",
+          143
+        ],
+        [
+          "Resolved by Joe (in-house).",
+          133
+        ]
+      ]
+    },
+    "cost": {
+      "null_count": 3137,
+      "null_rate": 0.3052,
+      "cardinality": 5943,
+      "top_values": [
+        [
+          "TBD",
+          484
+        ],
+        [
+          "0",
+          295
+        ],
+        [
+          "-1",
+          192
+        ],
+        [
+          "error",
+          12
+        ],
+        [
+          "10529.83",
+          3
+        ],
+        [
+          "3966",
+          3
+        ],
+        [
+          "2464",
+          3
+        ],
+        [
+          "4762",
+          3
+        ],
+        [
+          "1232.46",
+          3
+        ],
+        [
+          "3358.79",
+          3
+        ]
+      ]
+    },
+    "sla_hours": {
+      "null_count": 3086,
+      "null_rate": 0.3002,
+      "cardinality": 8,
+      "top_values": [
+        [
+          "48",
+          1267
+        ],
+        [
+          "24",
+          1252
+        ],
+        [
+          "8",
+          1238
+        ],
+        [
+          "4",
+          1194
+        ],
+        [
+          "72",
+          1193
+        ],
+        [
+          "999",
+          557
+        ],
+        [
+          "0",
+          484
+        ],
+        [
+          "-1",
+          9
+        ]
+      ]
+    },
+    "_source_file": {
+      "null_count": 0,
+      "null_rate": 0.0,
+      "cardinality": 1,
+      "top_values": [
+        [
+          "/Users/ramesh/Projects/InterviewPrep/turgon/medallion_pipeline_turgon/data/raw_tickets.csv",
+          10280
+        ]
+      ]
+    },
+    "_ingested_at": {
+      "null_count": 0,
+      "null_rate": 0.0,
+      "cardinality": 1,
+      "top_values": [
+        [
+          "2026-08-17T05:46:07+00:00",
+          10280
+        ]
+      ]
+    },
+    "_pipeline_run_id": {
+      "null_count": 0,
+      "null_rate": 0.0,
+      "cardinality": 1,
+      "top_values": [
+        [
+          "23e45cd8-a711-48fa-8055-d280b79af475",
+          10280
+        ]
+      ]
+    },
+    "_pipeline_actor": {
+      "null_count": 0,
+      "null_rate": 0.0,
+      "cardinality": 1,
+      "top_values": [
+        [
+          "ramesh",
+          10280
+        ]
+      ]
+    },
+    "_row_hash": {
+      "null_count": 0,
+      "null_rate": 0.0,
+      "cardinality": 10280,
+      "top_values": [
+        [
+          "f03b9c202f5d029d6391eaa141607d7508047d414bf39abde5d17cd2f565cc06",
+          1
+        ],
+        [
+          "f424025d67286b6bd0d4570d3397f42dd26d6b7f7da44be544f5a7e412790aa2",
+          1
+        ],
+        [
+          "0dea28e4097132f0bfa228e5da2ab8008f79525a3ac1e00111c87dab97bd6c84",
+          1
+        ],
+        [
+          "815cca7004535ef235d4849bd52e5669dc672e29d381487f93aabe65d231fe47",
+          1
+        ],
+        [
+          "a5f9dc0a35eb80b3b10af5376cf5cae3889feaf2a36b754b56d59138614c2cb0",
+          1
+        ],
+        [
+          "7082aa7108535ce562e0209c1e6bd642fbd6f7bef9c607ed473c86da3d6251dd",
+          1
+        ],
+        [
+          "2326339d5ad530865d63a1739a0d1747f399000087570b7311c96e91d57984a6",
+          1
+        ],
+        [
+          "fca10fa6ed2d6976963ce2b13f3aaf9a8eed6a31a83a703f3561c1f15f0d9655",
+          1
+        ],
+        [
+          "f8cae220f2ccdc616de6b0ce7c158733eb06e12dae870c5a7aa4c2791b5cdda3",
+          1
+        ],
+        [
+          "5ae88a7cab68970596147180f696a05b1d0238961a74409879d79824b8fa4750",
+          1
+        ]
+      ]
+    },
+    "_raw_row_json": {
+      "null_count": 0,
+      "null_rate": 0.0,
+      "cardinality": 10280,
+      "top_values": [
+        [
+          "{\"fields\": {\"ticket_id\": \"TKT-3960\", \"created_at\": \"2024-10-24 14:32:10\", \"resolved_at\": \"12-Feb-2025 03:21\", \"category\": \"power issue\", \"priority\": \"\", \"status\": \"Resolved\", \"building\": \"HQ Floor 2\", \"description\": \"Breaker keeps tripping in server room 391. Critical \u2014 affects production systems.\", \"submitted_by\": \"D. Kim\", \"assigned_to\": \"CityWide Electric\", \"resolution_notes\": \"\", \"cost\": \"\", \"sla_hours\": \"8\"}, \"extra_columns\": []}",
+          1
+        ],
+        [
+          "{\"fields\": {\"ticket_id\": \"TKT-3108\", \"created_at\": \"2024-07-25T18:27:44\", \"resolved_at\": \"2025-07-01\", \"category\": \"Fire Safety\", \"priority\": \"LOW\", \"status\": \"Resolved\", \"building\": \"Building 3\", \"description\": \"smoke detector beeping Building 3\", \"submitted_by\": \"Lisa Chen\", \"assigned_to\": \"Joe (in-house)\", \"resolution_notes\": \"Duplicate of ticket #3098. Closing.\", \"cost\": \"\", \"sla_hours\": \"\"}, \"extra_columns\": []}",
+          1
+        ],
+        [
+          "{\"fields\": {\"ticket_id\": \"TKT-5149\", \"created_at\": \"2024-06-16T04:31:56\", \"resolved_at\": \"2024-03-14 00:39:27\", \"category\": \"A/C\", \"priority\": \"Medium\", \"status\": \"Open\", \"building\": \"Tower B\", \"description\": \"cold\", \"submitted_by\": \"Pat Anderson\", \"assigned_to\": \"PestPro Services\", \"resolution_notes\": \"Dispatched technician. Fixed on site. Replaced valve.\", \"cost\": \"4569.86\", \"sla_hours\": \"4\"}, \"extra_columns\": []}",
+          1
+        ],
+        [
+          "{\"fields\": {\"ticket_id\": \"TKT-3752\", \"created_at\": \"28-Feb-2024 17:03\", \"resolved_at\": \"2025-03-09T21:12:56\", \"category\": \"Fire/Safety\", \"priority\": \"\", \"status\": \"Open\", \"building\": \"Cafeteria Block\", \"description\": \"Emergency exit sign burnt out, Cafeteria Block 11 floor east stairwell.\", \"submitted_by\": \"M. Johnson\", \"assigned_to\": \"maintenance team\", \"resolution_notes\": \"Resolved. Root cause: power surge.\", \"cost\": \"14587.72\", \"sla_hours\": \"24\"}, \"extra_columns\": []}",
+          1
+        ],
+        [
+          "{\"fields\": {\"ticket_id\": \"TKT-11268\", \"created_at\": \"2024-04-15\", \"resolved_at\": \"\", \"category\": \"need more outlets in conf room 387\", \"priority\": \"critical\", \"status\": \"In Progress\", \"building\": \"Tower B\", \"description\": \"Elec\", \"submitted_by\": \"jane doe\", \"assigned_to\": \"\", \"resolution_notes\": \"Resolved. Root cause: normal wear.\", \"cost\": \"\", \"sla_hours\": \"72\"}, \"extra_columns\": []}",
+          1
+        ],
+        [
+          "{\"fields\": {\"ticket_id\": \"TKT-2995\", \"created_at\": \"02/03/2025\", \"resolved_at\": \"2024-08-16T14:57:03\", \"category\": \"Sprinkler\", \"priority\": \"CRITICAL\", \"status\": \"Closed\", \"building\": \"Remote Site Beta\", \"description\": \"smoke detector beeping Remote Site Beta\", \"submitted_by\": \"K. Lee\", \"assigned_to\": \"maintenance team\", \"resolution_notes\": \"Vendor called. Scheduled for Thursday.\", \"cost\": \"13435.91\", \"sla_hours\": \"4\"}, \"extra_columns\": []}",
+          1
+        ],
+        [
+          "{\"fields\": {\"ticket_id\": \"TKT-1579\", \"created_at\": \"2024-08-05 02:58:03\", \"resolved_at\": \"2025-06-10 05:20:39\", \"category\": \"Housekeeping\", \"priority\": \"Low\", \"status\": \"Closed\", \"building\": \"Remote Site Beta\", \"description\": \"Restrooms on 12 floor haven't been serviced today.\", \"submitted_by\": \"C. Taylor\", \"assigned_to\": \"ABC Mechanical\", \"resolution_notes\": \"Resolved by maintenance team.\", \"cost\": \"-1\", \"sla_hours\": \"4\"}, \"extra_columns\": []}",
+          1
+        ],
+        [
+          "{\"fields\": {\"ticket_id\": \"TKT-10991\", \"created_at\": \"02/14/2025 08:16 AM\", \"resolved_at\": \"06/21/2024 03:18 AM\", \"category\": \"hvac\", \"priority\": \"Normal\", \"status\": \"Closed\", \"building\": \"Building 7\", \"description\": \"Temperature control issue in conference room 693. The thermostat reads 76 degrees but it feels much colder.\", \"submitted_by\": \"robert martinez\", \"assigned_to\": \"\", \"resolution_notes\": \"\", \"cost\": \"\", \"sla_hours\": \"48\"}, \"extra_columns\": []}",
+          1
+        ],
+        [
+          "{\"fields\": {\"ticket_id\": \"TKT-5543\", \"created_at\": \"04/09/2025\", \"resolved_at\": \"09-Dec-2024 07:56\", \"category\": \"Vertical Transport\", \"priority\": \"lo\", \"status\": \"Pending Vendor\", \"building\": \"Warehouse South\", \"description\": \"Elevator H-011 stuck between floors 1 and 9. No one inside (confirmed).\", \"submitted_by\": \"Pat Anderson\", \"assigned_to\": \"vendor tech\", \"resolution_notes\": \"Vendor called. Scheduled for Wednesday.\", \"cost\": \"\", \"sla_hours\": \"24\"}, \"extra_columns\": []}",
+          1
+        ],
+        [
+          "{\"fields\": {\"ticket_id\": \"TKT-4180\", \"created_at\": \"2024-01-14T20:37:41\", \"resolved_at\": \"\", \"category\": \"Other\", \"priority\": \"CRITICAL\", \"status\": \"Pending Vendor\", \"building\": \"HQ Floor 1\", \"description\": \"Parking lot pothole getting larger. Near spot 287.\", \"submitted_by\": \"Lisa Chen\", \"assigned_to\": \"\", \"resolution_notes\": \"Temporary fix applied. Permanent repair scheduled.\", \"cost\": \"3159.79\", \"sla_hours\": \"\"}, \"extra_columns\": []}",
+          1
+        ]
+      ]
+    }
+  },
+  "numeric_outliers": {
+    "count": 6452,
+    "q1": "2258.9",
+    "q3": "9295.85",
+    "upper_outlier_bound": "19851.275",
+    "outlier_count": 0,
+    "sla_hours": {
+      "count": 7185,
+      "q1": "8",
+      "q3": "48",
+      "upper_outlier_bound": "108.0",
+      "outlier_count": 557
+    }
+  }
+}

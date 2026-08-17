@@ -1,0 +1,80 @@
+{
+  "run": {
+    "id": "23e45cd8-a711-48fa-8055-d280b79af475",
+    "actor": "ramesh",
+    "started_at": "2026-08-17T05:46:07+00:00"
+  },
+  "incremental_strategy": {
+    "mode": "replay_window",
+    "replay_window_days": 7,
+    "dedupe_keys": [
+      "_row_hash",
+      "ticket_id"
+    ],
+    "late_arrival_handling": "All rows in the local source are replayed. A late record is therefore included even when its business date is older than the watermark.",
+    "double_count_protection": "Exact rows are removed by _row_hash; duplicate ticket IDs keep one deterministic, most-complete record; Gold is rebuilt from the deduplicated Silver table."
+  },
+  "approval_gate": {
+    "policy": {
+      "schema_changes": "approval required before migration execution",
+      "destructive_transforms": "approval required before deleting source records",
+      "major_recategorizations": "approval required before changing reviewed mappings"
+    },
+    "requests": []
+  },
+  "stages": [
+    {
+      "stage": "bronze",
+      "when": "2026-08-17T05:46:08+00:00",
+      "what": "Copied raw records without transformation; added source, hash, run, actor, and automatic metadata tags.",
+      "input": "/Users/ramesh/Projects/InterviewPrep/turgon/medallion_pipeline_turgon/data/raw_tickets.csv",
+      "outputs": [
+        "/Users/ramesh/Projects/InterviewPrep/turgon/medallion_pipeline_turgon/data/bronze/raw_tickets_bronze.csv",
+        "/Users/ramesh/Projects/InterviewPrep/turgon/medallion_pipeline_turgon/data/bronze/raw_tickets_source_snapshot.csv",
+        "/Users/ramesh/Projects/InterviewPrep/turgon/medallion_pipeline_turgon/data/bronze/metadata_tags.json"
+      ],
+      "row_count": 10280,
+      "metadata_classification": {
+        "domain": "operational_support",
+        "classification": "restricted",
+        "sensitivity": "moderate",
+        "reason": "Person-name columns and free-text fields may contain support-ticket PII."
+      }
+    },
+    {
+      "stage": "silver",
+      "when": "2026-08-17T05:46:08+00:00",
+      "what": "Validated, typed, normalized, and deduplicated Bronze records; rejected invalid ticket IDs.",
+      "input": "/Users/ramesh/Projects/InterviewPrep/turgon/medallion_pipeline_turgon/data/bronze/raw_tickets_bronze.csv",
+      "outputs": [
+        "/Users/ramesh/Projects/InterviewPrep/turgon/medallion_pipeline_turgon/data/silver/tickets_clean.csv",
+        "/Users/ramesh/Projects/InterviewPrep/turgon/medallion_pipeline_turgon/data/silver/tickets_rejected.csv"
+      ],
+      "input_rows": 10280,
+      "output_rows": 10254,
+      "exact_duplicate_rows_removed": 0,
+      "duplicate_ticket_ids_removed": 0,
+      "invalid_ticket_ids_rejected": 26,
+      "quality_warnings": {
+        "resolved_before_created": 1866,
+        "invalid_or_negative_cost": 679,
+        "invalid_sla_hours": 486,
+        "unparseable_created_at": 2,
+        "unparseable_resolved_at": 1
+      }
+    },
+    {
+      "stage": "gold",
+      "when": "2026-08-17T05:46:08+00:00",
+      "what": "Aggregated validated Silver tickets into volume, SLA, and backlog metrics.",
+      "input": "/Users/ramesh/Projects/InterviewPrep/turgon/medallion_pipeline_turgon/data/silver/tickets_clean.csv",
+      "output_directory": "/Users/ramesh/Projects/InterviewPrep/turgon/medallion_pipeline_turgon/data/gold",
+      "input_rows": 10254,
+      "outputs": [
+        "ticket_volume_by_category_priority.csv",
+        "sla_performance_by_category.csv",
+        "open_backlog_by_building_priority.csv"
+      ]
+    }
+  ]
+}

@@ -4,6 +4,7 @@ __pycache__/
 *.py[cod]
 logs/
 *.py[codz]
+*.py[cod]
 *$py.class
 
 # C extensions

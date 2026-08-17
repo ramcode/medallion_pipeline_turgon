@@ -1,0 +1,48 @@
+{
+  "status": "healthy",
+  "thresholds": {
+    "max_reject_rate": 0.02,
+    "max_null_rate_increase": 0.05,
+    "max_agent_failure_rate": 0.0
+  },
+  "alerts": [],
+  "pipeline": {
+    "bronze_rows": 10280,
+    "silver_rows": 10254,
+    "rejected_rows": 26,
+    "reject_rate": 0.0025,
+    "gold_input_rows": 10254
+  },
+  "agents": {
+    "null_rate_deltas": {
+      "ticket_id": 0.0,
+      "created_at": 0.0,
+      "resolved_at": 0.0,
+      "category": 0.0,
+      "priority": 0.0,
+      "status": 0.0,
+      "building": 0.0,
+      "description": 0.0,
+      "submitted_by": 0.0,
+      "assigned_to": 0.0,
+      "resolution_notes": 0.0,
+      "cost": 0.0,
+      "sla_hours": 0.0,
+      "_source_file": 0.0,
+      "_ingested_at": 0.0,
+      "_pipeline_run_id": 0.0,
+      "_pipeline_actor": 0.0,
+      "_row_hash": 0.0,
+      "_raw_row_json": 0.0
+    },
+    "usage": {
+      "provider": "local_deterministic",
+      "calls": 2,
+      "failures": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "estimated_cost_usd": 0.0
+    },
+    "failure_rate": 0.0
+  }
+}

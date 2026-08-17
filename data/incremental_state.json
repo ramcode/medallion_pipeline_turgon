@@ -1,0 +1,15 @@
+{
+  "last_successful_run": {
+    "id": "23e45cd8-a711-48fa-8055-d280b79af475",
+    "actor": "ramesh",
+    "started_at": "2026-08-17T05:46:07+00:00"
+  },
+  "mode": "replay_window",
+  "replay_window_days": 7,
+  "dedupe_keys": [
+    "_row_hash",
+    "ticket_id"
+  ],
+  "late_arrival_handling": "All rows in the local source are replayed. A late record is therefore included even when its business date is older than the watermark.",
+  "double_count_protection": "Exact rows are removed by _row_hash; duplicate ticket IDs keep one deterministic, most-complete record; Gold is rebuilt from the deduplicated Silver table."
+}

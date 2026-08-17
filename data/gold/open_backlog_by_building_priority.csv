@@ -1,0 +1,89 @@
+building,priority,open_ticket_count
+Annex East,Critical,71
+Annex East,High,82
+Annex East,Low,95
+Annex East,Medium,94
+Annex East,Unspecified,53
+Annex West,Critical,78
+Annex West,High,87
+Annex West,Low,74
+Annex West,Medium,119
+Annex West,Unspecified,42
+Building 3,Critical,86
+Building 3,High,81
+Building 3,Low,80
+Building 3,Medium,111
+Building 3,Unspecified,50
+Building 7,Critical,108
+Building 7,High,71
+Building 7,Low,84
+Building 7,Medium,124
+Building 7,Unspecified,47
+Cafeteria Block,Critical,94
+Cafeteria Block,High,89
+Cafeteria Block,Low,70
+Cafeteria Block,Medium,100
+Cafeteria Block,Unspecified,47
+Data Center 1,Critical,92
+Data Center 1,High,87
+Data Center 1,Low,88
+Data Center 1,Medium,96
+Data Center 1,Unspecified,44
+HQ Floor 1,Critical,108
+HQ Floor 1,High,90
+HQ Floor 1,Low,75
+HQ Floor 1,Medium,123
+HQ Floor 1,Unspecified,34
+HQ Floor 2,Critical,74
+HQ Floor 2,High,90
+HQ Floor 2,Low,91
+HQ Floor 2,Medium,125
+HQ Floor 2,Unspecified,48
+HQ Floor 3,Critical,70
+HQ Floor 3,High,77
+HQ Floor 3,Low,78
+HQ Floor 3,Medium,101
+HQ Floor 3,Unspecified,44
+Main Office,Critical,86
+Main Office,High,91
+Main Office,Low,79
+Main Office,Medium,111
+Main Office,Unspecified,52
+Parking Garage,Critical,76
+Parking Garage,High,99
+Parking Garage,Low,78
+Parking Garage,Medium,96
+Parking Garage,Unspecified,48
+Remote Site Alpha,Critical,92
+Remote Site Alpha,High,98
+Remote Site Alpha,Low,91
+Remote Site Alpha,Medium,116
+Remote Site Alpha,Unspecified,37
+Remote Site Beta,Critical,94
+Remote Site Beta,High,95
+Remote Site Beta,Low,106
+Remote Site Beta,Medium,103
+Remote Site Beta,Unspecified,43
+Tower A,Critical,88
+Tower A,High,84
+Tower A,Low,81
+Tower A,Medium,116
+Tower A,Unspecified,41
+Tower B,Critical,83
+Tower B,High,70
+Tower B,Low,88
+Tower B,Medium,109
+Tower B,Unspecified,42
+Unspecified,Critical,2
+Unspecified,Unspecified,1
+Warehouse North,Critical,90
+Warehouse North,High,86
+Warehouse North,Low,80
+Warehouse North,Medium,119
+Warehouse North,Unspecified,32
+Warehouse South,Critical,72
+Warehouse South,High,91
+Warehouse South,Low,82
+Warehouse South,Medium,104
+Warehouse South,Unspecified,37
+test building,Critical,1

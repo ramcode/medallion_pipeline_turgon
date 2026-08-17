@@ -1,0 +1,51 @@
+category,priority,ticket_count
+Electrical,Critical,190
+Electrical,High,179
+Electrical,Low,165
+Electrical,Medium,240
+Electrical,Unspecified,100
+Elevator,Critical,205
+Elevator,High,203
+Elevator,Low,199
+Elevator,Medium,247
+Elevator,Unspecified,104
+Fire Safety,Critical,223
+Fire Safety,High,226
+Fire Safety,Low,191
+Fire Safety,Medium,264
+Fire Safety,Unspecified,111
+General Maintenance,Critical,111
+General Maintenance,High,104
+General Maintenance,Low,88
+General Maintenance,Medium,153
+General Maintenance,Unspecified,57
+HVAC,Critical,108
+HVAC,High,135
+HVAC,Low,130
+HVAC,Medium,148
+HVAC,Unspecified,47
+Housekeeping,Critical,213
+Housekeeping,High,210
+Housekeeping,Low,194
+Housekeeping,Medium,268
+Housekeeping,Unspecified,115
+Other,Critical,476
+Other,High,465
+Other,Low,467
+Other,Medium,539
+Other,Unspecified,225
+Pest Control,Critical,227
+Pest Control,High,222
+Pest Control,Low,220
+Pest Control,Medium,273
+Pest Control,Unspecified,114
+Plumbing,Critical,224
+Plumbing,High,212
+Plumbing,Low,246
+Plumbing,Medium,282
+Plumbing,Unspecified,93
+Security & Access,Critical,203
+Security & Access,High,239
+Security & Access,Low,213
+Security & Access,Medium,273
+Security & Access,Unspecified,113

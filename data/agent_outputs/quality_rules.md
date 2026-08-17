@@ -1,0 +1,5 @@
+- **Treat NULL, unknown, ??? and n/a as missing.** Why: A single missing-value representation makes null rates and filters reliable.
+- **Keep TKT-<digits> ticket IDs; send other IDs to a reject table.** Why: Gold metrics must have one stable ticket grain.
+- **Normalize category, priority and status labels.** Why: Case and spelling variants otherwise split the same operational workload across groups.
+- **Parse known date formats; do not calculate duration when dates are invalid or reversed.** Why: Bad timestamps create misleading SLA breach metrics.
+- **Accept only non-negative costs and positive SLA hours.** Why: Negative or malformed values distort cost and SLA reporting.

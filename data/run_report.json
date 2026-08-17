@@ -1,0 +1,111 @@
+{
+  "agents": {
+    "schema_drift": {
+      "added_columns": [],
+      "removed_columns": [],
+      "migration": [
+        "No schema drift detected."
+      ]
+    },
+    "quality_rules": 5,
+    "null_rate_deltas": {
+      "ticket_id": 0.0,
+      "created_at": 0.0,
+      "resolved_at": 0.0,
+      "category": 0.0,
+      "priority": 0.0,
+      "status": 0.0,
+      "building": 0.0,
+      "description": 0.0,
+      "submitted_by": 0.0,
+      "assigned_to": 0.0,
+      "resolution_notes": 0.0,
+      "cost": 0.0,
+      "sla_hours": 0.0,
+      "_source_file": 0.0,
+      "_ingested_at": 0.0,
+      "_pipeline_run_id": 0.0,
+      "_pipeline_actor": 0.0,
+      "_row_hash": 0.0,
+      "_raw_row_json": 0.0
+    },
+    "usage": {
+      "provider": "local_deterministic",
+      "calls": 2,
+      "failures": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "estimated_cost_usd": 0.0
+    }
+  },
+  "approvals": {
+    "policy": {
+      "schema_changes": "approval required before migration execution",
+      "destructive_transforms": "approval required before deleting source records",
+      "major_recategorizations": "approval required before changing reviewed mappings"
+    },
+    "requests": []
+  },
+  "observability": {
+    "status": "healthy",
+    "thresholds": {
+      "max_reject_rate": 0.02,
+      "max_null_rate_increase": 0.05,
+      "max_agent_failure_rate": 0.0
+    },
+    "alerts": [],
+    "pipeline": {
+      "bronze_rows": 10280,
+      "silver_rows": 10254,
+      "rejected_rows": 26,
+      "reject_rate": 0.0025,
+      "gold_input_rows": 10254
+    },
+    "agents": {
+      "null_rate_deltas": {
+        "ticket_id": 0.0,
+        "created_at": 0.0,
+        "resolved_at": 0.0,
+        "category": 0.0,
+        "priority": 0.0,
+        "status": 0.0,
+        "building": 0.0,
+        "description": 0.0,
+        "submitted_by": 0.0,
+        "assigned_to": 0.0,
+        "resolution_notes": 0.0,
+        "cost": 0.0,
+        "sla_hours": 0.0,
+        "_source_file": 0.0,
+        "_ingested_at": 0.0,
+        "_pipeline_run_id": 0.0,
+        "_pipeline_actor": 0.0,
+        "_row_hash": 0.0,
+        "_raw_row_json": 0.0
+      },
+      "usage": {
+        "provider": "local_deterministic",
+        "calls": 2,
+        "failures": 0,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "estimated_cost_usd": 0.0
+      },
+      "failure_rate": 0.0
+    }
+  },
+  "silver": {
+    "input_rows": 10280,
+    "output_rows": 10254,
+    "exact_duplicate_rows_removed": 0,
+    "duplicate_ticket_ids_removed": 0,
+    "invalid_ticket_ids_rejected": 26,
+    "quality_warnings": {
+      "resolved_before_created": 1866,
+      "invalid_or_negative_cost": 679,
+      "invalid_sla_hours": 486,
+      "unparseable_created_at": 2,
+      "unparseable_resolved_at": 1
+    }
+  }
+}
